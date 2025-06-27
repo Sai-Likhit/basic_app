@@ -4,7 +4,7 @@ const port = "3008";
 
 const authRoutes = require('./routes/auth');
 
-const cors = require('cors');;
+const cors = require('cors');
 app.use(cors());
 
 app.use(express.json());
